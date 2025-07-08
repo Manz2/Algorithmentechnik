@@ -24,7 +24,6 @@ public class RodCut {
 
         System.out.println("Maximaler Erlös: " + dp[n]);
 
-
         System.out.print("Schnitte: ");
         while (n > 0) {
             System.out.print(cuts[n] + " ");
